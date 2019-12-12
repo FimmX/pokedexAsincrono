@@ -1,0 +1,38 @@
+.wrap{
+    width:90%;
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    /*padding-left: 30px;*/
+    margin-top: 30px;
+    /*border: 1px solid black;*/
+}
+.cuadrodex{
+  background: url('box1.png') no-repeat ; background-size: cover;
+  width: 200px;
+  height: auto;
+  margin: 20px;
+  padding: 15px 15px;
+}
+
+.box{
+    margin-top: 45px;
+    width: 200px;
+    height: 350px;
+}
+h2,p{
+  text-align: center;
+  font-size:1em;
+}
+.descripcion{
+  /*border: 1px solid black;*/
+  margin: none;
+  padding: none;
+}
+body{
+  background: url('fondo1.jpg') no-repeat ; background-size: cover;background-attachment: fixed;
+}
